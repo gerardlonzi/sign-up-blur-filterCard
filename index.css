@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_1280.jpg);
+    background-size: cover;
+}
+.form-in{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 28rem;
+    height: 38rem;
+    border-radius: 15px;
+    backdrop-filter: blur(34px);
+    box-shadow: 3px 3px 15px rgb(83, 83, 83);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    top: 15%;
+    left: 19%;
+}
+form span{
+    margin-left: 132px;
+    color: red;
+
+}
+ input{
+    display: block;
+    outline: 0;
+    border: 0;
+    padding: 15px 60px;
+    background-color: white;
+    opacity: .8;
+    border-radius: 7px;
+}
+ label{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+   
+    
+}
+h1{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-bottom: 14px;
+}
+button{
+    outline: 0;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    background-color: rgb(111, 24, 224);
+    border-radius: 7px;
+    transition: .4s ease;
+}
+button:hover{
+    background-color: rgb(98, 0, 255);
+    box-shadow: 1px 1px 30px rgb(98, 0, 255);
+}
+.button{
+    margin-top: 130px;
+    margin-left: 90px;
+    display: flex;
+    gap: 20px;
+}
+
+.sign-in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 28rem;
+    height: 26rem;
+    border-radius: 15px;
+    backdrop-filter: blur(34px);
+    display: none;
+    box-shadow: 3px 3px 15px rgb(83, 83, 83);
+
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    top: 18%;
+    left: 19%;
+}
+.end span{
+    margin-left: 132px;
+    color: red;
+
+}
+.btn{
+    margin-left: 78px;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 28rem;
+    height: 19rem;
+    border-radius: 15px;
+    backdrop-filter: blur(34px);
+    padding:30px 50px 30px 50px;
+    color: white;
+    font-size: 20px;
+    display: none;
+    box-shadow: 3px 3px 15px rgb(83, 83, 83);
+
+
+}
+.card button{
+    margin-left: 135px;
+    margin-top: 20px;
+
+}
+.card i{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 100px;
+    color: rgb(27, 179, 27);
+}
+
+.border{
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.nobor{
+    border: 0;
+    background-color: white;
+    opacity: .8;
+ 
+}
+
+@media screen and (max-width:617px){
+   input{
+        padding: 10px 30px;
+
+   }
+   .sign-in{
+        width: 20rem;
+        height: 26rem;
+
+   }
+   .sign-in button{
+        margin-left: -20px;
+   }
+   .card{
+        width: 20rem;
+        height: 21rem;
+    }
+    
+    .card button{
+        margin-left: 90px;
+        margin-top: 20px;
+   }
+   h1{
+        margin-left: 30px;
+
+   }
+   .form-in span{
+        margin-left: 65px;
+
+   }
+   .form-in{
+        width: 20rem;
+        height: 34rem;
+        top: 50%;
+        left: 63%;
+        transform: translate(-50%,-50%);
+    
+   }
+   .button{
+        margin-left: 65px;
+        display: flex;
+        gap: 10px;
+    }
+    button{
+        padding: 10px 20px;
+
+    }
+    
+}
+

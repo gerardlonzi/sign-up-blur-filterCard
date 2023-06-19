@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script type="module" src="index.js"></script>
+
+
+</head>
+<body>
+    <!------------------------formulaire et btn---------------------->
+    <div class="form-in">
+
+        <form >
+            <div class="sign"><h1>Sign Up</h1></div>  
+
+            <div class="content">
+                <label for="name">Nom</label><span class="name-error"></span>
+                <input type="text" name="name" class="name">
+            </div>
+            <div class="content">
+                <label for="email">Email</label><span class="email-error"></span>
+                <input type="email" name="email" class="email" required>
+            </div>
+            <div class="content">
+                <label for="password">password</label><span class="password-error"></span>
+                <input type="text" name="password" class="password">
+            </div>
+        </form>
+        <div class="button">
+            <button class="btn1">Sign up</button>
+            <button class="btn2">Sign in</button>
+    
+        </div> 
+    </div>    
+    <!--------------sucess card------------>
+    <div class="card">
+        <div class="log">
+            <i>✔</i>
+        </div>
+        <div class="txt">
+            <p>Felicitation <span class="name-result"></span> votre email d'entreprise est <span class="email-result">moi@gmail.com </span> vous etes inscrit et pouvez maintenant interagir avec l'entreprise</p>
+            <button class="sucess">ok</button>
+        </div>
+    </div>
+
+    <!-----------------------sign in block-->
+    <div class="sign-in">
+        <div class="end">
+            <di class="block">
+                <label for="email">Email</label><span class="email-back"></span>
+                <input type="email" name="email" class="email-second" required>
+            </di>
+            <di class="block">
+                <label for="password">password</label><span class="pass-back"></span>
+                <input type="text" name="password"  class="pass-second">
+            </di>
+            <div class="btn">
+                <button class="btn3">Valider</button>
+            </div>  
+        </div>    
+    </div>
+</body>
+</html>
